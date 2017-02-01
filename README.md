@@ -3,48 +3,11 @@
 [![Build Status](https://travis-ci.org/atomist-rugs/rug-command.svg?branch=master)](https://travis-ci.org/atomist-rugs/rug-command)
 [![Slack Status](https://join.atomist.com/badge.svg)](https://join.atomist.com)
 
-This [Rug][rug] archive contains "A generator for a Rug command extension"
+This [Rug][rug] archive contains a generator for a Rug command extension.
 
 [rug]: http://docs.atomist.com/
 
 ## Rugs
-
-### AddReadme
-
-The AddReadme editor adds a GitHub-like `README.md` to a project.
-
-#### Prerequisites
-
-Before running this editor, you must have the following prerequisites
-satisfied.
-
-*   A source code repository
-
-#### Parameters
-
-To run this editor, you must supply the following parameters.
-
-Name | Required | Default | Description
------|----------|---------|------------
-`project_name` | Yes | | A valid GitHub repository name.
-`description` | No | My new project | A brief description of the project between 1 and 100 characters.
-
-[semver]: http://semver.org
-
-#### Running
-
-Run it as follows:
-
-```
-$ cd to/the/repo
-$ rug edit atomist-rugs:rug-command:AddReadme \
-    project_name=fun-project \
-    description='A project that needs a README'
-```
-
-This will create a simple `README.md` file in the top-level directory
-of the source code repository.  If you are happy with the change,
-commit the changes.
 
 ## Support
 

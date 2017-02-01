@@ -1,0 +1,17 @@
+# $project_name
+
+$description
+
+## Run tests
+
+This microservice comes with some rudimentary tests as a good starting
+point for writing your own. Use the following command to execute the
+tests using Maven:
+
+```
+$ ./mvnw test
+```
+
+---
+Created on {{creation_date}} by Atomist.
+Need Help? <a href="https://join.atomist.com/">Join our Slack community</a>.

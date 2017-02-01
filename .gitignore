@@ -62,3 +62,5 @@ crashlytics-build.properties
 
 # Node
 node_modules/
+
+src/main/typescript/core/Core.js
